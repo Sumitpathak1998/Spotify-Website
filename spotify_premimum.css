@@ -1,0 +1,441 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.head1{
+    height: 50px;
+    background-color: blue;
+    color: aliceblue;
+    font-size: 70%;
+    box-sizing: border-box;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media screen and (min-width : 300px) and (max-width : 450px) {
+    .head1{
+        font-size: 50%;
+    }
+}
+.head2{
+    height: 70px;
+    background-color: black;
+    color: aliceblue;
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.list1{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    font-size: 150%;
+    font-weight: 800;
+}
+.list2{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 100%;
+    font-weight: 600;
+    transition-property: all;
+    transition-delay: 3ms;
+    transition-duration: 1s;
+}
+.logo{
+    height: 40px;
+    width: 40px;
+}
+.list2l1,list2l2,.list2l3,.list2l4,.list2l5,.list2l6{
+    transition-property: all;
+    transition-delay: 3ms;
+    transition-duration: 1s;
+}
+.list2l1:hover,.list2l2:hover,.list2l3:hover,.list2l4:hover,.list2l5:hover,.list2l6:hover{
+    color: rgb(162, 177, 140);
+}
+@media screen and ( min-width : 300px) and ( max-width : 450px) {
+    .head2{
+        box-sizing: border-box;
+        padding-left: 2.5%;
+        height: 40px;
+    }
+    .list1{
+        font-size: 100%;
+    }
+    .logo{
+        height: 20px;
+        width: 20px;
+    }
+    .list2{
+        font-size: 60%;
+        gap: 5%;
+        box-sizing: border-box;
+        padding-right: 2%;
+    }
+}
+.article1{
+    height: 400px;
+    background-color: rgb(58, 147, 235);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 4.5%;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+.sub1{
+    height: 50px;
+    font-size: 200%;
+    font-weight: 700;
+}
+.sub2{
+    height: 40px;
+    font-size: 110%;
+}
+.sub3{
+    height: 45px;
+    display: flex;
+    gap: 2%;
+    font-size: 80%;
+    font-weight: 700;
+}
+.box1{
+    height: 40px;
+    width: 120px;
+    background-color: black;
+    color: aliceblue;
+    box-sizing: border-box;
+    padding-left: 6%;
+    padding-top: 4%;
+    border-radius: 15%;
+}
+.box2{
+    height: 40px;
+    width: 150px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    padding-left: 6%;
+    padding-top: 4%;
+    border-radius: 15%;
+}
+.sub4{
+    height: 20px;
+    font-size: 55%;
+}
+@media screen and ( min-width : 300px) and ( max-width : 450px) {
+    .article1{
+        height: 300px;
+    }
+    .sub1{
+        height: 20px;
+        font-size: 110%;
+    }
+    .sub2{
+        height: 15px;
+        font-size: 60%;
+    }
+    .sub3{
+        display: flex;
+        flex-direction: column;
+        gap: 15%;
+    }
+    .box1{
+        width: 150px;
+        height: 50px;
+        font-size: 100%;
+        box-sizing: border-box;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 23%;
+        
+    }
+    .box2{
+        width: 150px;
+        height: 50px;
+        font-size: 100%;
+        box-sizing: border-box;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 15%;
+    }
+    .sub4{
+        font-size: 60%;
+        text-align: center;
+    }
+}
+.article2{
+    height: 100px;
+    font-size: 250%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 1.5%;
+}
+@media screen and ( min-width : 300px) and ( max-width : 450px) {
+    .article2{
+        background-color: antiquewhite;
+        font-size: 150%;
+        height: 50px;
+    }
+}
+.article3{
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    padding: 1%;
+    flex-wrap: nowrap;
+    gap: 3%;
+    justify-content: center;
+}
+.card{
+    height: 300px;
+    width: 220px;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    gap: 4%;
+    justify-content: center;
+    align-items: center;
+}
+.part1{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.cardimage{
+    height: 100px;
+    width: 100px;   
+    border-radius: 50%;
+}
+.fa-solid{
+    box-sizing: border-box;
+    padding-top: 10%;
+    text-align: center;
+    font-size: 500%;
+    height: 100px;
+    width: 100px;
+}
+.part2{
+    height: 120px;
+    text-align: center;
+    font-size: 70%;
+}
+.subpart2{
+    font-size: 80%;
+}
+@media screen and ( min-width : 300px) and ( max-width : 450px) {
+    .article3{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card{
+        display: flex;
+        flex-direction: row;
+        height: 100px;
+        width: 150px;
+        box-sizing: border-box;
+        padding-top: 2px;
+    }
+    .part1{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+    }
+    .cardimage{
+        height: 50px;
+        width: 50px;   
+        border-radius: 50%;
+    }
+    .fa-solid{
+        box-sizing: border-box;
+        padding-top: 10%;
+        text-align: center;
+        font-size: 250%;
+        height: 50px;
+        width: 50px;
+    }
+    .part2{
+        font-size: 80%;
+        height: 50px;
+        text-align: center;
+        font-size: 70%;
+    }
+    .subpart2{
+        font-size: 70%;
+    }
+}
+.article5{ 
+    display: flex;
+    flex-direction: column;
+    background-color: gainsboro;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    align-items: center;
+    gap: 4%;
+    box-sizing: border-box;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.premium1{
+    height: 70px;
+    font-weight: 700;
+    font-size: 250%;
+}
+.premium2{
+    height: 30px;
+    font-size: 70%; 
+}
+@media screen and ( min-width : 300px) and ( max-width : 450px) {
+    .premium1{
+        font-size: 150%;
+        height: 35px;
+    }
+    .premium2{
+        font-size: 65%;
+        height: 15px;
+    }
+}
+.article6{
+    background-color: gainsboro;
+    display: flex;
+    box-sizing: border-box;
+    padding: 2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap: 2%;
+    justify-content: center;
+}
+.pricard{
+    background-color: white;
+    height: 400px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+    border: 1px solid;
+    box-sizing: border-box;
+    padding: 1%;
+    border-radius: 7%;
+}
+.pripart1{
+    height: 120px;
+    font-size: 85%;
+    border-bottom: 1px solid black;
+}
+.plan{
+    font-size: 80%;
+    border: 1px solid blue;
+    color: blue;
+    font-weight: 600;
+    display: inline-block;
+    border-radius: 5%;
+    box-sizing: border-box;
+    padding-top: 0.2%;
+    padding-bottom: 0.2%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-bottom: 4%;
+}
+.pripart2{
+    height: 150px;
+    box-sizing: border-box;
+    padding-top: 2%;
+    font-size: 80%;
+    padding-left: 7%;
+}
+.pripart3{
+    border: 1px solid;
+    box-sizing: border-box;
+    padding: 1.5%;
+    text-align: center;
+    border-radius: 30%;
+    background-color: black;
+    color: aliceblue;
+    font-size: 80%;
+    font-weight: 700;
+}
+.pripart4{
+    font-size: 50%;
+    color: rgb(185, 181, 181);
+}
+.free{
+    font-size: 80%;
+    border: 1px solid;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 2% 3%;
+    border-radius: 10%;
+    background-color: rgb(88, 138, 239);
+    color: aliceblue;
+    font-weight: 600;
+}
+@media screen and ( min-width : 300px ) and ( max-width : 450px) {
+    .article6{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .pricard{
+        height: 330px;
+        width: 250px;
+        box-sizing: border-box;
+        padding-top: 18px;
+        padding-left: 10px;
+    }
+}
+.article7{
+    background-color: gainsboro;
+    display: flex;   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+.bottom1{
+    height: 50px;
+    font-size: 120%;
+    font-weight: 600;
+    border: 1px solid;
+    box-sizing: border-box;
+    padding: 1%;
+    margin-bottom: 2%;
+    border-bottom-left-radius: 15%;
+    border-top-left-radius: 15%;
+    background-color: white;
+}
+.bottom2{
+    height: 50px;
+    font-size: 80%;
+    border: 1px solid;
+    box-sizing: border-box;
+    padding: 1.4%;
+    margin-bottom: 2%;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+    background-color: white;
+}
+@media screen and ( min-width : 300px ) and ( max-width : 450px) {
+    .bottom1{
+        height: 28px;
+        font-size: 70%;
+    }
+    .bottom2{
+        height: 28px;
+        font-size: 50%;
+    }
+}

@@ -1,0 +1,451 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.head1{
+    height: 50px;
+    background-color: blue;
+    color: aliceblue;
+    font-size: 70%;
+    box-sizing: border-box;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.head2{
+    height: 70px;
+    background-color: black;
+    color: aliceblue;
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.list1{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 150%;
+    font-weight: 800;
+}
+.list2{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 100%;
+    font-weight: 600;
+    transition-property: all;
+    transition-delay: 3ms;
+    transition-duration: 1s;
+    text-decoration: dotted;
+}
+.logo{
+    height: 40px;
+    width: 40px;
+}
+.list2l1,list2l2,.list2l3,.list2l4,.list2l5,.list2l6{
+    transition-property: all;
+    transition-delay: 3ms;
+    transition-duration: 1s;
+}
+.list2l1:hover,.list2l2:hover,.list2l3:hover,.list2l4:hover,.list2l5:hover,.list2l6:hover{
+    color: rgb(162, 177, 140);
+}
+@media screen and ( min-width :300px ) and ( max-width : 450px){
+    .head1{
+        height: 25px;
+        font-size: 50%;
+    }
+    .head2{
+        box-sizing: border-box;
+        padding-left: 4%;
+        padding-right: 3%;
+        height: 40px;
+    }
+    .list1{
+        gap: 3px;
+        font-size: 80%;
+    }
+    .logo{
+        height: 15px;
+        width: 15px;
+    }
+    .list2{
+        gap: 3% ; 
+        font-size: 50%;   
+    }    
+}
+.section{
+    height: 550px;
+    background-color: antiquewhite;
+    display: flex;
+}
+.article1{
+    background-color: cadetblue;
+    background-image: linear-gradient(to top ,rgba(26, 26, 211, 0.762),rgba(177, 72, 226, 0.849),rgba(222, 34, 239, 0.821));
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-grow: 1;
+}
+.main1{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    box-sizing: border-box;
+    padding-top: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.article2{
+    background-color: coral;
+    background-image: linear-gradient(to top ,rgba(26, 26, 211, 0.762),rgba(177, 72, 226, 0.849),rgba(222, 34, 239, 0.821));
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 2;
+}
+.main2{
+    height: 150px;
+    font-size: 220%;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    padding-top: 15px;
+    color: aliceblue;
+}
+.main3{
+    background-color: white;
+    height: 30px;
+    width: 150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-top: 5px;
+    border-radius: 30%;
+    transition-property: all;
+    transition-delay: 3ms;
+    transition-duration: 1s;
+}
+.main3:hover{
+    transform: scale(1.1,1.1);
+}
+@media screen and (min-width : 300px) and ( max-width : 450px){
+    .section{
+        height: 300px;
+    }
+    .article1{
+        display: none;
+    }
+    .main2{
+        font-size: 150%;
+    }
+    .main3{
+        font-size: 70%;
+        height: 24px;
+        width: 100px;
+        box-sizing: border-box;
+        padding-left: 4%;
+        padding-right: 2%;
+        padding-bottom: 1%;
+        padding-right: 1%;
+    }
+}
+.article3,.article6{
+    box-sizing: border-box;
+    padding-top: 2%;
+    height: 120px;
+    font-size: 350%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+@media screen and (min-width : 300px) and (max-width : 450px) {
+    .article3{
+        font-size: 150%;
+        height: 60px;
+    }
+}
+.article4{
+    box-sizing: border-box;
+    padding:  3% 5.5%; 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+.card{
+    height: 330px;
+    width: 20vw;
+    border-radius: 10%;
+    box-sizing: border-box;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6%;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.part1{
+    height: 130px;
+    width: 130px;
+    background-color: rgb(219, 250, 215);
+    background-image: linear-gradient(to top ,rgba(26, 26, 211),rgba(177, 72, 226),rgba(222, 34, 239));
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    border-radius: 20%;
+    height: 80px;
+    width: 80px;
+}
+.part2{
+    font-size: 100%;
+    text-align: center;
+}
+.subcontent{
+    font-size: 70%;
+}
+@media screen and (min-width : 300px) and ( max-width : 450px) {
+    .article4{
+        height: 380px;
+    }
+    .card{
+        width: 150px;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .part1{
+        height: 50px;
+        width: 50px;
+    }
+    .image{
+        height: 30px;
+        width: 30px;
+    }
+    .part2{
+        font-size: 70%;
+        font-weight: 400;
+    }
+    .subcontent{
+        font-size: 100%;
+    }
+}
+.article5{
+    height: 400px;
+    background-image: linear-gradient(to top ,rgba(26, 26, 211, 0.762),rgba(177, 72, 226, 0.849),rgba(222, 34, 239, 0.821));
+    font-size: 400%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 100px;
+    color: aliceblue;
+}
+@media screen and ( min-width : 300px) and ( max-width : 450px){
+    .article5{
+        font-size: 250%;
+        height: 350px;
+    }
+    .article6{
+        font-size: 150%;
+        height: 60px;
+    }
+}
+.hidden1{
+    display: flex;
+    justify-content: center;
+    font-size: 150%;
+    font-weight: 400;
+    font-style: italic;
+    box-sizing: border-box;
+    padding-left: 4%;
+    padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+    border: 2px solid rgba(220, 220, 220, 0.447);
+    margin: 1% 4%;
+    border-radius: 10px; 
+}
+.hiddencontent{
+    box-sizing: border-box;
+    padding-left: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 75%;
+}
+.hidden1:hover{
+    background-color: rgba(240, 248, 255, 0.719);
+}
+.bold{
+    text-decoration: underline;
+    font-weight: 600;
+}
+@media screen and (min-width : 300px) and ( max-width : 450px) {
+    .hidden1{
+        font-size: 85%;
+    }
+    .hiddencontent{
+        font-size: 80%;
+    }
+    
+}
+.article7{
+    height: 400px;
+    background-image: linear-gradient(to top ,rgba(26, 26, 211, 0.762),rgba(177, 72, 226, 0.849),rgba(222, 34, 239, 0.821));
+    display: flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.main4{
+    font-size: 400%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    color: aliceblue;
+}
+@media screen and ( min-width : 300px) and (max-width : 450px){
+    .article7{
+        height: 200px;
+    }
+    .main4{
+        font-size: 200%;
+    }
+}
+.footer{
+    background-color: black;
+    box-sizing: border-box;
+    padding: 4%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1%;
+}
+.foot1{
+    height: 300px;
+    width: 150px;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    font-size: 200%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    color: aliceblue;
+    flex-grow: 1;
+}
+.foot2,.foot3,.foot4{
+    height: 300px;
+    width: 150px ;
+    box-sizing: border-box;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 90%;
+    gap: 20px;
+    color: aliceblue;
+    flex-grow: 2;
+}
+.chart2,.chart3,.chart4,.chart5,.chart6{
+    transition-property: all;
+    transition-duration: 1s;
+    transition-delay: 3ms;
+}
+.chart2:hover,.chart3:hover,.chart4:hover,.chart5:hover,.chart6:hover{
+    color: greenyellow;
+}
+.chart1{
+    color: gray;
+}
+.foot5{
+    height: 70px;
+    width: 250px;
+    display: flex;
+    gap: 5%;
+    box-sizing: border-box;
+    padding: 2%;
+}
+.fa-brands{
+    font-size: 320%;
+    color: aliceblue;
+}
+@media screen and ( min-width : 300px) and ( max-width : 450px){
+    .footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .foot1{
+        height: 230px;
+        font-size: 80%;
+        width: 100px;
+    }
+    .foot2,.foot3{
+        height: 230px;
+        width: 100px;
+    }
+    .foot4{
+        height: 150px;
+    }
+    .chart1,.chart2,.chart3,.chart4,.chart5,.chart6{
+        font-size: 75%;
+    }
+    .foot5{
+        width: 100px;
+    }
+    .fa-brands{
+        font-size: 120%;
+        color: aliceblue;
+    }
+}
+.bottom{
+    background-color: black;
+    box-sizing: border-box;
+    padding: 4%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 4%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60%;
+    color: gray;
+}
+.last1,.last2,.last3,.last4,.last5,.last6{
+    transition-property: all;
+    transition-duration: 1s;
+    transition-delay: 1ms;
+}
+.last1:hover,.last2:hover,.last3:hover,.last4:hover,.last5:hover,.last6:hover{
+    color: greenyellow;
+}
+@media screen and (min-width : 300px) and ( max-width : 450px){
+    .bottom{
+        gap: 4%;
+        font-size: 50%;
+    }
+}
+
+
+
+
